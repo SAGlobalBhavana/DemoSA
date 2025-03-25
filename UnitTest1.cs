@@ -14,9 +14,11 @@ namespace DemoSA
 
             driver.Navigate().GoToUrl("https://www.google.com");
             driver.Manage().Window.Maximize();
-
+            
+               // need to add thelogin part logic
+            driver.Close();
         }
-        //Login part 
+       
 
     }
 }
