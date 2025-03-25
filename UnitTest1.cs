@@ -14,8 +14,12 @@ namespace DemoSA
 
             driver.Navigate().GoToUrl("https://www.google.com");
             driver.Manage().Window.Maximize();
-            
-               // need to add thelogin part logic
+
+            // need to add thelogin part logic
+            driver.FindElement(By.XPath("//input[@name=\"email\"]")).SendKeys("BhavanaaR@saglobal.com");
+            driver.FindElement(By.XPath("//input[@type=\"submit\"]")).Click();
+
+
             driver.Close();
         }
        
