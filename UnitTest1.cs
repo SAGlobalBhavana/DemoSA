@@ -17,9 +17,10 @@ namespace DemoSA
 
             // need to add thelogin part logic
             driver.FindElement(By.XPath("//input[@name=\"email\"]")).SendKeys("BhavanaaR@saglobal.com");
+            driver.FindElement(By.XPath("//input[@name=\"pass\"]")).SendKeys("****");
             driver.FindElement(By.XPath("//input[@type=\"submit\"]")).Click();
-
-
+            // Homepage
+            
             driver.Close();
         }
        
