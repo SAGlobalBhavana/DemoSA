@@ -9,13 +9,14 @@ namespace DemoSA
         [TestMethod]
         public void Navigate()
         {
-
             IWebDriver driver = new ChromeDriver();
 
             driver.Navigate().GoToUrl("https://www.google.com");
             driver.Manage().Window.Maximize();
             
-               // need to add thelogin part logic
+               // need to add the login part logic
+          
+            
             driver.Close();
         }
        
